@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h2>Preencha seu formulário,venha fazer parte do time kenzie Academy!</h2>
+    <form action="">
+
+        <ul>
+            <li>
+                <label for="nome">Nome</label><br>
+                <input type="nome" id="nome" name="nome"placeholder="digite seu nome aqui..." required="true"><br><br>
+            </li>
+            <li>
+                <label for="e-mail">E-mail</label><br>
+                <input type="e-mail" id="email"name="e-mail"placeholder="digite seu E-mail aqui ..." required="true" >
+            </li>
+            <li>
+                <label for="confirme seu e-mail">confirme seu E-mail</label><br>
+                <input type="confirme seu e-mail" id="confirme seu e-mail"name="confirme seu e-mail"placeholder="digite seu E-mail novamente aqui ..." required="true" >
+            </li>
+            <li>
+                <label for="senha">Senha</label><br>
+                <input type="password" id="senha"name="senha"placeholder="digite sua senha aqui ..." required="true" > 
+            </li>
+            <li>
+                <label for="confirme sua senha">confirme sua senha</label><br>
+                <input type="password" id="confirme sua senha"name="confirme sua senha"placeholder="digite sua senha novamente aqui ..." required="true" >
+            </li> 
+            <li> 
+                <p>Deseja receber novidades em seu E-mail</p>
+                <label for="sim">Sim</label>
+                <input id="sim"type="radio" required name="metododecontrato"value="sim">
+
+                <label for="não">Não</label>
+                <input id ="não"type="radio" required name="metododecontrato"value="Não"
+                >
+
+               <button type="submit">enviar</button>
+            </li><br>
+
+            <li>
+                <p>Escolha o Módulo</p>
+                <label for="plano">Plano</label>
+                <select name="plano" required="true" id="plano">
+                    <option value="">escolher plano</option>
+                    <option value="Front end">Front end</option>
+                    <option value="back end">Back end</option>
+                    <option value="full stack">Full stack</option>
+                </select>
+                <button type="submit">cadastrar</button>
+            </li><br><br>
+            <li>
+                <label for="Descrição do DEV">Descrição do DEV</label><br>
+                <textarea id="descrição do DEV"placeholder="por que ser um DEV,fale mais sobre voce..."cols="20"rows="5"
+                name="Descrição do DEV"
+                required="true"
+                ></textarea><br>
+                <button type="submit">enviar mensagem</button>
+             </li><br>
+             <li>
+                 <label for="confirme seu cadastro"> <strong>confirme seu cadastro</strong> </label><br>
+                 <button type="submit">enviar cadastro
+                 </button>
+            </li>
+           
+
+        </ul>
+
+    </form>
+</body>
+</html>
